@@ -22,7 +22,6 @@ BuildRequires:      perl(LWP)
 BuildRequires:      perl(HTML::TokeParser)
 BuildRequires:      perl(XML::RSS) >= 1.01
 BuildRequires:      perl(XML::Atom) >= 0.08 
-BuildRoot:          %{_tmppath}/%{name}-%{version}
 BuildArch:          noarch
 
 %description
