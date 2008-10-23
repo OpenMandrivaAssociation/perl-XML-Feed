@@ -1,7 +1,7 @@
 %define module  XML-Feed
 %define name    perl-%{module}
 %define release %mkrel 1
-%define version 0.21
+%define version 0.22
 
 Name:               %{name}
 Version:            %{version}
