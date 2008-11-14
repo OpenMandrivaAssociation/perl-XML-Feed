@@ -6,6 +6,7 @@
 Name:               %{name}
 Version:            %{version}
 Release:            %{release}
+Epoch:              1
 Summary:            Perl Module for Syndication feed parsing and auto-discovery 
 License:            GPL or Artistic
 Group:              Development/Perl
@@ -22,8 +23,8 @@ BuildRequires:      perl(LWP)
 BuildRequires:      perl(HTML::TokeParser)
 BuildRequires:      perl(XML::RSS) >= 1.01
 BuildRequires:      perl(XML::Atom) >= 0.08 
-BuildRoot:          %{_tmppath}/%{name}-%{version}
 BuildArch:          noarch
+BuildRoot:          %{_tmppath}/%{name}-%{version}
 
 %description
 XML::Feed is a syndication feed parser for both RSS and Atom feeds. It also
