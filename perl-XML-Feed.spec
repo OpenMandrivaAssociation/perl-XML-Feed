@@ -6,7 +6,7 @@
 Name:               %{name}
 Version:            %{version}
 Release:            %{release}
-Epoch:              1
+Epoch:              2
 Summary:            Perl Module for Syndication feed parsing and auto-discovery 
 License:            GPL or Artistic
 Group:              Development/Perl
