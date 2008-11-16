@@ -1,7 +1,7 @@
 %define module  XML-Feed
 %define name    perl-%{module}
 %define release %mkrel 1
-%define version 0.23
+%define version 0.3
 
 Name:               %{name}
 Version:            %{version}
@@ -11,7 +11,7 @@ Summary:            Perl Module for Syndication feed parsing and auto-discovery
 License:            GPL or Artistic
 Group:              Development/Perl
 Url:                http://search.cpan.org/dist/%{module}/
-Source:             http://www.cpan.org/modules/by-module/XML/%{module}-%{version}.tar.bz2
+Source:             http://www.cpan.org/modules/by-module/XML/%{module}-%{version}.tar.gz
 BuildRequires:      perl(Class::ErrorHandler)
 BuildRequires:      perl(Feed::Find)
 BuildRequires:      perl(URI::Fetch)
