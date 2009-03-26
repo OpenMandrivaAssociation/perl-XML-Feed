@@ -1,6 +1,6 @@
 %define module  XML-Feed
 %define name    perl-%{module}
-%define release %mkrel 1
+%define release %mkrel 2
 %define version 0.41
 
 Name:               %{name}
@@ -25,6 +25,9 @@ BuildRequires:      perl(XML::RSS) >= 1.01
 BuildRequires:      perl(XML::Atom) >= 0.08 
 BuildArch:          noarch
 BuildRoot:          %{_tmppath}/%{name}-%{version}
+# (misc) not found by find-provides, as it can be changed at runtime with a 
+# variable $PREFERED_PARSER
+Requires:           perl(XML::RSS)
 
 %description
 XML::Feed is a syndication feed parser for both RSS and Atom feeds. It also
