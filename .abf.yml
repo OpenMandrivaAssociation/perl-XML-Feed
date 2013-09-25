@@ -1,2 +1,4 @@
+removed_sources:
+  XML-Feed-0.43.tar.gz: 04d0c175f9bbabc8ba8373d2d6b6ed338bacaab2
 sources:
-  "XML-Feed-0.43.tar.gz": 04d0c175f9bbabc8ba8373d2d6b6ed338bacaab2
+  XML-Feed-0.52.tar.gz: eff784807481ae4a3deaaea2f5a66747c00c75ec

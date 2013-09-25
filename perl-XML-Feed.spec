@@ -1,16 +1,16 @@
 %define upstream_name    XML-Feed
-%define upstream_version 0.43
+%define upstream_version 0.52
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 Epoch:		2
 
 Summary:	Perl Module for Syndication feed parsing and auto-discovery 
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/modules/by-module/XML/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/XML/XML-Feed-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Class::ErrorHandler)
@@ -135,4 +135,5 @@ make test
 
 * Fri Mar 02 2007 Shlomi Fish  0.12-1mdv2007.0
 - Initial release. Adapted the XML-Feed spec for this one.
+
 
