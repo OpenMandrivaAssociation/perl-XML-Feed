@@ -1,16 +1,16 @@
 %define upstream_name    XML-Feed
-%define upstream_version 0.52
+%define upstream_version v1.0.0
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 Epoch:		2
 
 Summary:	Perl Module for Syndication feed parsing and auto-discovery 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/modules/by-module/XML/XML-Feed-%{upstream_version}.tar.gz
+Url:		https://github.com/davorg-cpan/xml-feed
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAVECROSS/XML-Feed-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
